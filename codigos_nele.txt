@@ -1,0 +1,4 @@
+1. constructor function
+2. prototype
+3. verificar palavra no texto
+4. array com construct
