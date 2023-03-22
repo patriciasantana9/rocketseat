@@ -1,19 +1,20 @@
 //for in: cria loop em cima de objetos pegando suas propriedade
-/*
-let person = {
+
+let aluna = {
     name: "Pati",
     age: 23,
     weight: 46
 }
-
-for(let property in person){
-    console.log(property);
+//informações coladas
+let informacoes = "";
+for(let property in aluna){
+    informacoes += aluna[property]
 }
-*/
+console.log(informacoes); 
 
-const person = {fname:"John", lname:"Doe", age:25};
-
-let text = "";
-for (let z in person) {
-    text += person[z];
+//informações separadas
+let dados = "";
+for (let i in aluna) {
+    dados = aluna[i];
+    console.log(dados)
 }
