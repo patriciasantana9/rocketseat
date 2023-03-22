@@ -46,3 +46,4 @@ function notas(nota){
             break;
     }
 }
+notas(70)
