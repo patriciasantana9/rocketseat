@@ -26,4 +26,3 @@ console.log(phrase.includes("Dinheiro"));
 
 let myArray = new Array ('a', 'b', 'c');
 console.log(myArray);
-
