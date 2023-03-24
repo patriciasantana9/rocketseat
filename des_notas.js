@@ -6,6 +6,7 @@ function notas(nota){
     let notaF = nota < 60;
 
     //com if
+
     if (notaA) {
         console.log("A");
     } else if (notaB){
@@ -19,9 +20,10 @@ function notas(nota){
     } else {
         console.log("Nota inválida");
     }
-
+    
     //com switch
-    switch(notas) {
+    //dando erro
+    switch(nota) {
         case notaA:
             console.log("Nota A!")
             break;
@@ -43,6 +45,7 @@ function notas(nota){
             break;
     
         default:
+            console.log("Nota inválida")
             break;
     }
 }
