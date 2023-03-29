@@ -1,0 +1,13 @@
+//console.log(process);
+// console.log('Seu nome é ', process.argv[2] + ' ' + process.argv[3]);
+// import { argv } from 'process';
+//import  { __filename } from path;
+//const path = require('path') 
+//console.log(path.basename("/Users/starter/docs.js"))
+
+
+
+
+const fname = argv[2]
+const lname = argv[3]
+console.log(`${fname} ${lname}`)
