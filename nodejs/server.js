@@ -12,4 +12,4 @@ app.get("/sobre", function(req, res) {       //criação de rota
 })
 
 app.listen(8080);   //ouvidor de porta, ouvir a porta 8080
-// console.log('rodando')
+console.log('rodando')
