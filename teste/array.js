@@ -1,6 +1,6 @@
 //base
 let frutas = ['manga', 'abacaxi', 'banana', 'maça'];
-
+/*
 //push: usamos o spread para não modificar o original
 let frutas_push = [...frutas].push('mamão');
 
@@ -15,12 +15,10 @@ let frutas_filter = frutas.filter((fruta) => {
     return fruta !== 'melão';
 });
 console.log(frutas_filter)
-
-//find: encontrar um elemento CORRIGIR
-let frutas_find = frutas.find((fruta) => {
-    return fruta === 'banana'
-})
-console.log(frutas_find.indexOf())
+*/
+//find: encontrar um elemento; se encontrar, exibirá seu nome; se não, undefind
+let frutas_find = frutas.find(fruta => fruta === 'banana');
+console.log(frutas_find)
 
 //includes: true or false if finds the element
 let frutas_includes = frutas.includes('manga');
