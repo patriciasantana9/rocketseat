@@ -16,4 +16,7 @@ const promessa = new Promise((resolve, reject) => {
 console.log('aguardando');
 
 //depois de executar aqueles de cima, este de baixo será executado, também sequencialmente; a instrução dele indica que deve executar certas funções se a promessa for sucedida ou não; depois, deve concluir com o finally
-promessa.then(result => console.log(result)).catch(erro => console.log(erro)).finally(() => console.log('finalizada'));
+promessa
+    .then(result => console.log(result))
+    .catch(erro => console.log(erro))
+    .finally(() => console.log('finalizada'));
